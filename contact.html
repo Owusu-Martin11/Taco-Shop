@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Owusu Martin">
+    <meta name="description" content="Contact Us">
+    <title>Contact Us</title>
+    <link rel="icon" href="images_for_project1/air_b and_b photo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 class="header__h1">Martin's Taco Shop</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:5500/project%201/index.html#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Hours</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <figure>
+            <img src="images_for_project1/tacos_2.jpg" alt="Fresh served tacos" title="Three pictures of tacos"
+                width="1000" height="649">
+            <figcaption class="offscreen">
+                <em>Martin's Taco Shop Tacos</em>
+        </figure>
+    </section>
+
+    <main class="main">
+        <article class="main__article">
+            <h2>Our Location</h2>
+            <address>
+                The Living Spring School, Delicious Taco Avenue <br>
+                MS 16453 KIA - Accra
+            </address>
+            <p>
+                <em>Phone:</em> <a href="tell+">456-789-0980</a>
+            </p>
+            <p>
+                <a href="#">Back to Top</a>
+            </p>
+        </article>
+
+        <article class="main__article contact">
+            <h2 class="contact__h2">Our Contact Form</h2> <br>
+            <form class="contact__form" action="https://httpbin.org/get">
+                <fieldset class="contact__fieldset">
+                    <legend class="offscreen">Send Us A Message</legend>
+                    <p class="contact__p">
+                        <label class="contact__label" for="name">Name:</label>
+                        <input class="contact__input" type="text" name="name" id="name" placeholder=" enter your name"
+                            autocomplete="on" required>
+                    </p>
+                    <p class="contact__p">
+                        <label class="contact__label" for="e_mail">E-mail:</label>
+                        <input class="contact__input" type="mailto" name="e_mail" id="e_mail"
+                            placeholder=" enter your E-mail" autocomplete="on" required>
+                    </p>
+                    <h4>Your message: </h4>
+                    <label class="contact__label" for="message"></label>
+                    <textarea class="contact__textarea" name="message" id="message" cols="30" rows="10"
+                        placeholder="Type your message here"></textarea>
+                    <p>
+                        <button class="contact__button" type="submit">Send</button>
+                        <button class="contact__button" type="reset">Reset</button>
+                    </p>
+                </fieldset>
+            </form>
+        </article>
+        <p class="center">
+            <a href="#">Back to Top</a>
+        </p>
+    </main>
+
+    <footer class="footer">
+        <p>
+            <span class="nowrap">Copyright &copy; <time id="year"></time> </span>
+            <span class="nowrap">Martin's Taco Shop</span>
+        </p>
+    </footer>
+
+</html>
